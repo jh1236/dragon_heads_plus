@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner: \"Jh1236\"}"
+      },
+      "title": "Jh1236",
+      "description": "Datapacks by Jh1236",
+      "background": "minecraft:textures/block/gray_concrete.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {}
+      }
+    }
+  }

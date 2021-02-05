@@ -1,0 +1,3 @@
+execute as @e[scores={jh.d.flying=1..},predicate=jh1236:dragon_head/breathing_head/wearing,tag=!global.ignore] at @s run playsound minecraft:entity.ender_dragon.flap player @a[distance=0.05..,tag=!global.ignore] ~ ~ ~ 1
+execute as @e[scores={jh.d.flying=1..},predicate=jh1236:dragon_head/breathing_head/wearing,tag=!global.ignore] at @s run playsound minecraft:entity.ender_dragon.flap player @s ~ ~ ~ 0.1
+scoreboard players set @a jh.d.flying 0

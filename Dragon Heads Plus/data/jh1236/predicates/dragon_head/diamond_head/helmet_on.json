@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+      "equipment": {
+          "head": {
+              "item": "minecraft:diamond_helmet",
+              "nbt": "{jh1236:{head:1b}}"
+          }
+      }
+  }
+}

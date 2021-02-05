@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "jh1236:global/uuid/load",
+        "jh1236:global/rand/load"
+    ]
+}

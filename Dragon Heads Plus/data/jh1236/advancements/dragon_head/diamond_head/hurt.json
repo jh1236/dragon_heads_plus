@@ -1,0 +1,25 @@
+{
+  "rewards": {
+    "function": "jh1236:dragon_head/diamond_head/hurt"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "minecraft:dragon_head",
+              "nbt": "{jh1236:{reinforced:1b}}"
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "bypasses_armor": false
+          }
+        }
+      }
+    }
+  }
+}

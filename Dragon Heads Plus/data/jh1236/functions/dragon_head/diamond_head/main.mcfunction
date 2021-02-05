@@ -1,0 +1,3 @@
+execute as @a[predicate=jh1236:dragon_head/diamond_head/helmet_on,tag=!global.ignore] run function jh1236:dragon_head/diamond_head/wearing/helmet_on
+execute as @a[predicate=!jh1236:dragon_head/diamond_head/head_on,nbt={Inventory:[{id:"minecraft:dragon_head",tag:{jh1236:{reinforced:1b}}}]},tag=!global.ignore] run function jh1236:dragon_head/diamond_head/wearing/helmet_off
+execute as @a[predicate=jh1236:dragon_head/diamond_head/head_on,tag=jh.hurt,tag=!global.ignore] at @s run function jh1236:dragon_head/diamond_head/hurt/main

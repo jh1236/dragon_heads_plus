@@ -1,0 +1,3 @@
+execute as @e[type=arrow,tag=!jh.processed,tag=!global.ignore] at @s run function jh1236:dragon_head/breathing_head/arrow/new_arrow
+execute as @e[type=arrow,tag=jh.trail,nbt={inGround:1b},tag=!global.ignore] at @s run function jh1236:dragon_head/breathing_head/arrow/ground
+execute at @e[type=arrow,tag=jh.trail,tag=!global.ignore] run particle dragon_breath ~ ~ ~ 0 0 0 0 0 normal @a[tag=!global.ignore]

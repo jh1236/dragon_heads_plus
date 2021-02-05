@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dragon_head"
+      },
+      "title": "More Dragon Heads",
+      "description": "A datapack that customises dragon heads by adding two custom recipies.",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "global:jh1236",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {}
+      }
+    }
+  }

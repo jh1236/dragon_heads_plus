@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+            "head": {
+                "item": "minecraft:dragon_head",
+                "nbt": "{jh1236:{breath:1b}}"
+            }
+        }
+    }
+}
